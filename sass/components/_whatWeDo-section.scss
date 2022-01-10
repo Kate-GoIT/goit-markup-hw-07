@@ -1,0 +1,45 @@
+//what we do section
+.do-section {
+  background-color: $primaryWhiteColor;
+  padding: 94px 15px;
+  margin: 0 auto;
+}
+
+.do-list {
+  display: flex;
+  padding-left: 0;
+  margin: 0;
+  &__item {
+    width: 272px;
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
+  &__block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $portfolioButtonsColor;
+    width: 270px;
+    height: 120px;
+    border-radius: 4px;
+    margin-bottom: 30px;
+  }
+  &__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  &__paragraf {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 0.03em;
+    color: $secondaryTextColor;
+    text-align: left;
+  }
+}

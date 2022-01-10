@@ -1,0 +1,47 @@
+/* FOOTER Adress */
+.adress-section {
+  background-color: $heroBackgroundColor;
+  margin: 0 auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  & .container {
+    display: flex;
+    align-items: baseline;
+  }
+}
+.adress-container__link {
+  color: $primaryWhiteColor;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  font-family: "Raleway", sans-serif;
+}
+.adress-list__item {
+  color: $translucentWhiteColor;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+
+  display: block;
+  margin-top: 9px;
+  &:hover,
+  &:focus {
+    color: $buttonLogoColor;
+  }
+}
+.adress-list__text {
+  color: $primaryWhiteColor;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  margin-top: 20px;
+}
+.adress-container__logo--color {
+  color: $logoFirstColor;
+}
